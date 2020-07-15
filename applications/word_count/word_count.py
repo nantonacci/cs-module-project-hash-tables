@@ -1,6 +1,22 @@
+import re
+
 def word_count(s):
     # Your code here
+    cache = {}
+    lower = s.lower() #lowercase the string
+    #remove specified characters
+    stringo = re.sub('["\\:\\;\\,\\.\\-\\+\\=\\/\\\\\|\\[\\]\\{\\}\\(\\)\\*\\^\\&]', '', lower)
 
+    words = stringo.split() #create an array of individual words
+
+    for word in words:
+        key = word
+        if key not in cache:
+            cache[key] = 1
+        else:
+            cache[key] += 1
+
+    return cache
 
 
 if __name__ == "__main__":

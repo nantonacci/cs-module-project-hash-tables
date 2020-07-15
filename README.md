@@ -4,21 +4,21 @@
 
 Task: Implement a basic hash table without collision resolution.
 
-1. Implement a `HashTable` class and `HashTableEntry` class.
+[x] 1. Implement a `HashTable` class and `HashTableEntry` class.
 
-2. Implement a good hashing function.
+[x] 2. Implement a good hashing function.
 
    Recommend either of:
 
-   * DJB2
+[x]   * DJB2
    * FNV-1 (64-bit)
 
    You are allowed to Google for these hashing functions and implement
    from psuedocode.
 
-3. Implement the `hash_index()` that returns an index value for a key.
+[x] 3. Implement the `hash_index()` that returns an index value for a key.
 
-4. Implement the `put()`, `get()`, and `delete()` methods.
+[x] 4. Implement the `put()`, `get()`, and `delete()` methods.
 
 You can test this with:
 
@@ -47,9 +47,9 @@ python test_hashtable.py
 Task: Implement load factor measurements and automatic hashtable size
 doubling.
 
-1. Compute and maintain load factor.
+[x] 1. Compute and maintain load factor.
 
-2. When load factor increases above `0.7`, automatically rehash the
+[x] 2. When load factor increases above `0.7`, automatically rehash the
    table to double its previous size.
 
    Add the `resize()` method.
@@ -73,10 +73,10 @@ For these, you can use either the built-in `dict` type, or the hashtable
 you built. (Some of these are easier with `dict` since it's more
 full-featured.)
 
-* [Lookup Table](applications/lookup_table/)
-* [Expensive Sequence](applications/expensive_seq/)
-* [Word Count](applications/word_count/)
-* [No Duplicates](applications/no_dups/)
+[x]* [Lookup Table](applications/lookup_table/)
+[x]* [Expensive Sequence](applications/expensive_seq/)
+[x]* [Word Count](applications/word_count/)
+[x]* [No Duplicates](applications/no_dups/)
 * [Markov Chains](applications/markov/)
 * [Histogram](applications/histo/)
 * [Cracking Caesar Ciphers](applications/crack_caesar/)
