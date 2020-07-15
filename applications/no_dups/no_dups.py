@@ -1,6 +1,16 @@
 def no_dups(s):
     # Your code here
+    string = s.split()
+    result =""
+    for word in string:
+        if word in result:
+            pass
+        else:
+            result += (word + " ")
+    return result.strip()
 
+    # replace space with a character then replace character with space??
+    # trim off space at end?
 
 
 if __name__ == "__main__":
